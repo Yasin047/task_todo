@@ -1,0 +1,19 @@
+@import "antd/dist/antd.css";
+
+.App {
+  text-align: center;
+}
+
+.taskBg {
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
